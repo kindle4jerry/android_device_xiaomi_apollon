@@ -10,6 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Kaleidoscope stuff.
 $(call inherit-product, vendor/kscope/target/product/mobile.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from apollon device
 $(call inherit-product, device/xiaomi/apollon/device.mk)
