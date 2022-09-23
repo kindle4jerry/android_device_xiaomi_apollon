@@ -43,7 +43,7 @@ static const variant_info_t apollo_info = {
     .device = "apollo",
     .marketname = "Redmi K30S Ultra",
     .model = "M2007J3SC",
-    .build_fingerprint = "Redmi/apollo/apollo:12/RKQ1.211001.001/V13.0.6.0.SJDCNXM:user/release-keys",
+    .build_fingerprint = "Redmi/apollo/apollo:12/RKQ1.211001.001/V13.0.5.0.SJDCNXM:user/release-keys",
 
     .nfc = true,
 };
