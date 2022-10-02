@@ -24,6 +24,9 @@ TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := apollon,apollo,apollopro
 
+# MiuiCamera
+-include vendor/miuicamera/Andriod.mk
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
